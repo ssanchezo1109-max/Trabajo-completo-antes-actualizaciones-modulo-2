@@ -1,0 +1,8 @@
+{
+  "name": "Market Analyst Pro (jun 6)",
+  "description": "Automated stock market reporting: Yahoo Finance scraping, TradingView screenshots, and Google Docs generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

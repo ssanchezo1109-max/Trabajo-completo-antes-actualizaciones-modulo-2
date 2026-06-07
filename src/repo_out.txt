@@ -1,0 +1,41 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import React, { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
+import { initAuth, googleSignIn, logout, getAccessToken } from './auth';
+import { 
+  Play, 
+  Settings, 
+  CheckCircle2, 
+  AlertCircle, 
+  Loader2, 
+  Plus, 
+  Trash2, 
+  LogIn, 
+  LogOut, 
+  FileText, 
+  TrendingUp,
+  Activity,
+  Box,
+  LayoutDashboard,
+  Cpu,
+  Monitor,
+  Maximize2,
+  X,
+  Home,
+  ArrowLeft,
+  Database,
+  Sparkles
+} from 'lucide-react';
+
+interface AutomationResult {
+  success: boolean;
+  logs: string[];
+  error?: string;
+  docId?: string;
+  tickerDocs?: { ticker: string; docId: string }[];
+}
+
